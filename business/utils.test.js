@@ -12,6 +12,7 @@ NOL0WER!
 goodP4ssw0rd!
 */
 
+/* added a line */
 test('Password must have at least 8 char', () => {
     expect(utils.isValidPassword("Short1!")).toBe( false );
 });
